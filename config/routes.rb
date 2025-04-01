@@ -11,4 +11,11 @@ Rails.application.routes.draw do
 
   # Health check route
   get "up" => "rails/health#show", as: :rails_health_check
+  
+  if Rails.env.production?
+    get "/run-seed" => proc {
+      Rails.application.load_seed
+      [200, {}, ["Seed complete"]]
+    }
+  end
 end
