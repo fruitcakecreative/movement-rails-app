@@ -3,7 +3,7 @@ namespace :import do
   task events: :environment do
     require 'json'
 
-    file_path = Rails.root.join('events.json')
+    file_path = Rails.root.join('db/events.json')
     unless File.exist?(file_path)
       puts "❌ No events.json file found!"
       exit
@@ -11,9 +11,20 @@ namespace :import do
 
     events = JSON.parse(File.read(file_path))
 
+    skip_urls = [
+      "https://ra.co/events/2136172",
+      "https://ra.co/events/2061680",
+      "https://ra.co/events/2085466",
+      "https://ra.co/events/2101035",
+      "https://ra.co/events/2130939",
+    ]
+
     events.each_with_index do |event_data, index|
       event_info = event_data["event"]
       next unless event_info
+
+      event_url = "https://ra.co#{event_info['contentUrl']}"
+      next if skip_urls.include?(event_url)
 
       begin
         ActiveRecord::Base.transaction do
@@ -35,20 +46,23 @@ namespace :import do
 
 
           event = Event.find_or_initialize_by(event_url: "https://ra.co#{event_info['contentUrl']}")
-          event.assign_attributes(
-            title: event_info["title"],
-            date: event_info["date"],
-            start_time: event_info["startTime"],
-            end_time: event_info["endTime"],
-            venue: venue,
-            description: "No description available",
-            source: "RA",
-            attending_count: event_info["attending"] || 0
-          )
+          attrs = {
+              description: event_info["description"],
+              source: "RA",
+              attending_count: event_info["attending"] || 0
+            }
+            attrs[:title] = event_info["title"] unless event.manual_override_title
+
+          attrs[:start_time] = event_info["startTime"] unless event.manual_override_times
+          attrs[:end_time] = event_info["endTime"] unless event.manual_override_times
+          attrs[:venue] = venue unless event.manual_override_location
+
+          event.assign_attributes(attrs)
+
           event.save!
 
           # ⛔️ Only update ticket fields if not manually managed
-          unless event.manual_override
+          unless event.manual_override_ticket
             event.update!(
               ticket_tier: ticket_info["tier"],
               ticket_price: raw_price ? raw_price.gsub("$", "").to_f : 0,
@@ -57,7 +71,7 @@ namespace :import do
           end
 
           # Associate genres with the event
-          event.genres = genres
+          event.genres = genres unless event.manual_override_genres
 
           # Add Artists
           if event_info["artists"]

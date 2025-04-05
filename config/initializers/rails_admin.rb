@@ -1,29 +1,6 @@
 RailsAdmin.config do |config|
   config.asset_source = :sprockets
 
-  ### Popular gems integration
-
-  ## == Devise ==
-  # config.authenticate_with do
-  #   warden.authenticate! scope: :user
-  # end
-  # config.current_user_method(&:current_user)
-
-  ## == CancanCan ==
-  # config.authorize_with :cancancan
-
-  ## == Pundit ==
-  # config.authorize_with :pundit
-
-  ## == PaperTrail ==
-  # config.audit_with :paper_trail, 'User', 'PaperTrail::Version' # PaperTrail >= 3.0.0
-
-  ### More at https://github.com/railsadminteam/rails_admin/wiki/Base-configuration
-
-  ## == Gravatar integration ==
-  ## To disable Gravatar integration in Navigation Bar set to false
-  # config.show_gravatar = true
-
   config.actions do
     dashboard                     # mandatory
     index                         # mandatory
@@ -43,12 +20,22 @@ RailsAdmin.config do |config|
   config.model 'Event' do
   edit do
     field :title
+    field :manual_override_title, :boolean
     field :short_title
     field :even_shorter_title
     field :start_time
     field :end_time
+    field :manual_override_times
     field :venue
+    field :manual_override_location
     field :genres
+    field :artists do
+      associated_collection_cache_all false
+      associated_collection_scope do
+        ->(scope) { scope.limit(100) }
+      end
+    end
+    field :manual_override_genres
     field :description
     field :bg_color do
       partial 'color_picker'
@@ -75,6 +62,7 @@ RailsAdmin.config do |config|
     field :ticket_price
     field :ticket_tier
     field :ticket_wave
+    field :manual_override_ticket
     field :manual_override  # ✅ add this line
   end
 end

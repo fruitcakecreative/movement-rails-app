@@ -10,13 +10,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.2].define(version: 2025_03_29_002829) do
+ActiveRecord::Schema[7.2].define(version: 2025_04_03_024910) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "artists", force: :cascade do |t|
     t.string "name"
-    t.bigint "genre_id", null: false
+    t.bigint "genre_id"
     t.text "description"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -47,7 +47,6 @@ ActiveRecord::Schema[7.2].define(version: 2025_03_29_002829) do
     t.datetime "end_time"
     t.bigint "venue_id", null: false
     t.string "source"
-    t.bigint "genre_id"
     t.text "description"
     t.string "event_url"
     t.integer "attending_count"
@@ -69,7 +68,11 @@ ActiveRecord::Schema[7.2].define(version: 2025_03_29_002829) do
     t.string "promoter"
     t.text "notes"
     t.string "bg_color"
-    t.index ["genre_id"], name: "index_events_on_genre_id"
+    t.boolean "manual_override_ticket", default: false
+    t.boolean "manual_override_location", default: false
+    t.boolean "manual_override_times", default: false
+    t.boolean "manual_override_genres", default: false
+    t.boolean "manual_override_title"
     t.index ["venue_id"], name: "index_events_on_venue_id"
   end
 
@@ -116,6 +119,5 @@ ActiveRecord::Schema[7.2].define(version: 2025_03_29_002829) do
   add_foreign_key "artists", "genres"
   add_foreign_key "event_attendees", "events"
   add_foreign_key "event_attendees", "users"
-  add_foreign_key "events", "genres"
   add_foreign_key "events", "venues"
 end
