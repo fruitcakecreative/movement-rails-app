@@ -15,6 +15,19 @@ class Event < ApplicationRecord
     end
   end
 
+  after_save :process_manual_artist_names, if: -> { manual_artist_names.present? }
+
+  def process_manual_artist_names
+    names = manual_artist_names.split(",").map(&:strip).reject(&:blank?)
+    names.each do |name|
+      artist = Artist.find_or_create_by!(name: name)
+      self.artists << artist unless self.artists.include?(artist)
+    end
+    update_column(:manual_artist_names, nil)
+  end
+
+
+
   # Convert start_time to Planby-compatible format (remove 'Z')
   def formatted_start_time
     start_time&.strftime("%Y-%m-%dT%H:%M:%S") # Removes 'Z'

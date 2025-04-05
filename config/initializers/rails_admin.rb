@@ -36,6 +36,9 @@ RailsAdmin.config do |config|
         ->(scope) { scope.limit(100) }
       end
     end
+    field :manual_artist_names, :text do
+      help "Comma-separated list of artist names to manually add"
+    end
     field :manual_override_artists, :boolean
     field :description
     field :bg_color do
