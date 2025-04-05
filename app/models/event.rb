@@ -21,7 +21,8 @@ class Event < ApplicationRecord
     names = manual_artist_names.split(",").map(&:strip).reject(&:blank?)
     names.each do |name|
       artist = Artist.find_or_create_by!(name: name)
-      self.artists << artist unless self.artists.include?(artist)
+      self.artists << artist unless self.artist_ids.include?(artist.id)
+      self.save!
     end
     update_column(:manual_artist_names, nil)
   end
