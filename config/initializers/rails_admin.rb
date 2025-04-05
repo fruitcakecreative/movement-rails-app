@@ -29,13 +29,14 @@ RailsAdmin.config do |config|
     field :venue
     field :manual_override_location
     field :genres
+    field :manual_override_genres
     field :artists do
       associated_collection_cache_all false
       associated_collection_scope do
         ->(scope) { scope.limit(100) }
       end
     end
-    field :manual_override_genres
+    field :manual_override_artists, :boolean
     field :description
     field :bg_color do
       partial 'color_picker'
@@ -58,6 +59,7 @@ RailsAdmin.config do |config|
     end
     field :promoter
     field :notes
+    field :event_url
     field :ticket_url
     field :ticket_price
     field :ticket_tier

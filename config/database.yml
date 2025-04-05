@@ -9,7 +9,7 @@ default: &default
 
 development:
   <<: *default
-  database: event_app_development
+  url: <%= ENV["DATABASE_URL"] %>
 
 test:
   <<: *default
