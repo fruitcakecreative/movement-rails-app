@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.2].define(version: 2025_04_05_041132) do
+ActiveRecord::Schema[7.2].define(version: 2025_04_07_013152) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -116,6 +116,11 @@ ActiveRecord::Schema[7.2].define(version: 2025_04_05_041132) do
     t.string "venue_type"
     t.string "serves_alcohol"
     t.text "notes"
+    t.string "venue_url"
+    t.string "address"
+    t.text "description"
+    t.integer "distance"
+    t.text "additional_images"
   end
 
   add_foreign_key "artists", "genres"
