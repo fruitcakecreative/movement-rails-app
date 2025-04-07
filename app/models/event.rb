@@ -4,6 +4,8 @@ class Event < ApplicationRecord
   has_many :event_attendees
   has_many :users, through: :event_attendees
   has_and_belongs_to_many :artists
+  has_many :artist_events
+  has_many :artists, through: :artist_events
 
   def top_artists
     artists.sort_by { |a| -(a.ra_followers || 0) }.first(10).map do |artist|

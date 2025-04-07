@@ -111,6 +111,16 @@ end
     end
   end
 
+ config.model 'ArtistEvent' do
+  edit do
+    field :artist
+    field :event
+    field :set_start_time
+    field :set_end_time
+    field :live, :boolean
+  end
+end
+
 
 
 end

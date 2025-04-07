@@ -10,9 +10,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.2].define(version: 2025_04_07_013152) do
+ActiveRecord::Schema[7.2].define(version: 2025_04_07_023054) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "artist_events", force: :cascade do |t|
+    t.bigint "artist_id", null: false
+    t.bigint "event_id", null: false
+    t.datetime "set_start_time"
+    t.datetime "set_end_time"
+    t.boolean "live"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["artist_id"], name: "index_artist_events_on_artist_id"
+    t.index ["event_id"], name: "index_artist_events_on_event_id"
+  end
 
   create_table "artists", force: :cascade do |t|
     t.string "name"
@@ -123,6 +135,8 @@ ActiveRecord::Schema[7.2].define(version: 2025_04_07_013152) do
     t.text "additional_images"
   end
 
+  add_foreign_key "artist_events", "artists"
+  add_foreign_key "artist_events", "events"
   add_foreign_key "artists", "genres"
   add_foreign_key "event_attendees", "events"
   add_foreign_key "event_attendees", "users"
