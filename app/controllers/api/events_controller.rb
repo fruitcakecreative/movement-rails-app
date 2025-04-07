@@ -8,7 +8,7 @@ class Api::EventsController < ApplicationController
     render json: events.as_json(
       only: [:id, :title, :short_title, :even_shorter_title, :description, :bg_color, :font_color, :ticket_url, :event_url, :ticket_price, :ticket_tier, :ticket_wave],
       methods: [:formatted_start_time, :formatted_end_time, :top_artists],
-      include: { venue: { only: [:id, :name, :image_filename, :hex_color, :font_color, :subheading] },
+      include: { venue: { only: [:id, :name, :image_filename, :address, :location, :venue_url, :description, :distance, :serves_alcohol, :venue_type, :additional_images, :hex_color, :font_color, :subheading] },
       genres: { only: [:id, :name, :hex_color, :font_color, :short_name] }
       }
     )
