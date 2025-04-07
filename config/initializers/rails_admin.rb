@@ -83,7 +83,7 @@ end
       field :distance
       field :additional_images
       field :serves_alcohol
-      field :field_type, :enum do
+      field :venue_type, :enum do
         enum do
           ['Warehouse', 'Club', 'Bar/Restaurant', 'Outdoor Event Space', 'Theatre', 'Music Venue']
         end
