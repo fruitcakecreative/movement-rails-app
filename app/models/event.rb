@@ -5,9 +5,14 @@ class Event < ApplicationRecord
   has_many :users, through: :event_attendees
   has_many :artist_events
   has_many :artists, through: :artist_events
+  has_many :user_events
+  has_many :users, through: :user_events
+  has_many :ticket_posts
+
+
 
   def top_artists
-    artists.sort_by { |a| -(a.ra_followers || 0) }.first(10).map do |artist|
+    result = artists.sort_by { |a| -(a.ra_followers || 0) }.first(100).map do |artist|
       {
         id: artist.id,
         name: artist.name,
