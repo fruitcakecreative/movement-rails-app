@@ -11,7 +11,7 @@
             "contentUrl": "/events/2085383",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 215,
+            "attending": 227,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -95,7 +95,7 @@
             "contentUrl": "/events/2149313",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 64,
+            "attending": 72,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -161,7 +161,7 @@
             "contentUrl": "/events/2143607",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 35,
+            "attending": 43,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -219,9 +219,9 @@
         },
         "__typename": "EventListing",
         "ticket_info": {
-            "tier": "Early bird",
-            "price": "$10.00",
-            "current_tier": "1 of 2"
+            "tier": "1st release",
+            "price": "$15.00",
+            "current_tier": "2 of 2"
         }
     },
     {
@@ -236,7 +236,7 @@
             "contentUrl": "/events/2153000",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 23,
+            "attending": 30,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -306,7 +306,7 @@
             "contentUrl": "/events/2152099",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 14,
+            "attending": 17,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -375,9 +375,9 @@
         },
         "__typename": "EventListing",
         "ticket_info": {
-            "tier": "Early bird",
-            "price": "$10.00",
-            "current_tier": "1 of 6"
+            "tier": "1st release",
+            "price": "$15.00",
+            "current_tier": "2 of 6"
         }
     },
     {
@@ -392,7 +392,7 @@
             "contentUrl": "/events/2110877",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 64,
+            "attending": 67,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -458,7 +458,7 @@
             "contentUrl": "/events/2073891",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 44,
+            "attending": 61,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -535,11 +535,11 @@
             "date": "2025-05-22T00:00:00.000",
             "startTime": "2025-05-22T17:00:00.000",
             "endTime": "2025-05-22T20:00:00.000",
-            "title": "From Post-Disco to Pre-Techno: An Artist to Artist Talk",
+            "title": "Post Disco to Pre Techno: An Artist to Artist Talk",
             "contentUrl": "/events/2155330",
             "flyerFront": null,
             "isTicketed": false,
-            "attending": 7,
+            "attending": 18,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -614,6 +614,47 @@
         }
     },
     {
+        "id": "12160526",
+        "listingDate": "2025-05-22T00:00:00.000",
+        "event": {
+            "id": "2160526",
+            "date": "2025-05-22T00:00:00.000",
+            "startTime": "2025-05-22T12:00:00.000",
+            "endTime": "2025-05-22T23:59:00.000",
+            "title": "As Above",
+            "contentUrl": "/events/2160526",
+            "flyerFront": null,
+            "isTicketed": false,
+            "attending": 0,
+            "queueItEnabled": false,
+            "newEventForm": true,
+            "images": [],
+            "pick": null,
+            "venue": {
+                "id": "240110",
+                "name": "3979 Bangor",
+                "contentUrl": "/clubs/240110",
+                "live": true,
+                "__typename": "Venue"
+            },
+            "__typename": "Event",
+            "artists": [],
+            "genres": [
+                {
+                    "name": "Ambient",
+                    "slug": "ambient",
+                    "__typename": "Genre"
+                }
+            ]
+        },
+        "__typename": "EventListing",
+        "ticket_info": {
+            "tier": null,
+            "price": null,
+            "current_tier": null
+        }
+    },
+    {
         "id": "12085391",
         "listingDate": "2025-05-23T00:00:00.000",
         "event": {
@@ -625,7 +666,7 @@
             "contentUrl": "/events/2085391",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 815,
+            "attending": 858,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -713,7 +754,7 @@
             "contentUrl": "/events/2031298",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 393,
+            "attending": 410,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -805,9 +846,9 @@
         },
         "__typename": "EventListing",
         "ticket_info": {
-            "tier": "3rd release",
-            "price": "$28.55",
-            "current_tier": "4 of 7"
+            "tier": "Final release",
+            "price": "$40.00",
+            "current_tier": "5 of 6"
         }
     },
     {
@@ -822,7 +863,7 @@
             "contentUrl": "/events/1937214",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 379,
+            "attending": 396,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -921,7 +962,7 @@
             "contentUrl": "/events/2106261",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 296,
+            "attending": 311,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -1022,7 +1063,7 @@
             "contentUrl": "/events/2132047",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 278,
+            "attending": 304,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -1130,7 +1171,7 @@
             "contentUrl": "/events/2092593",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 102,
+            "attending": 115,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -1204,56 +1245,6 @@
         }
     },
     {
-        "id": "12130935",
-        "listingDate": "2025-05-23T00:00:00.000",
-        "event": {
-            "id": "2130935",
-            "date": "2025-05-23T00:00:00.000",
-            "startTime": "2025-05-23T19:00:00.000",
-            "endTime": "2025-05-24T02:00:00.000",
-            "title": "Hold Me (Movement Edition)",
-            "contentUrl": "/events/2130935",
-            "flyerFront": null,
-            "isTicketed": true,
-            "attending": 18,
-            "queueItEnabled": false,
-            "newEventForm": true,
-            "images": [
-                {
-                    "id": "2150020",
-                    "filename": "https://images.ra.co/fb707de9be2956a441ff6f2cc1655fe6e9ebd45a.jpg",
-                    "alt": null,
-                    "type": "FLYERFRONT",
-                    "crop": null,
-                    "__typename": "EventImage"
-                }
-            ],
-            "pick": null,
-            "venue": {
-                "id": "101178",
-                "name": "UFO Bar",
-                "contentUrl": "/clubs/101178",
-                "live": true,
-                "__typename": "Venue"
-            },
-            "__typename": "Event",
-            "artists": [
-                {
-                    "id": "141783",
-                    "name": "wetdogg",
-                    "__typename": "Artist"
-                }
-            ],
-            "genres": []
-        },
-        "__typename": "EventListing",
-        "ticket_info": {
-            "tier": "1st release",
-            "price": "$17.15",
-            "current_tier": "2 of 3"
-        }
-    },
-    {
         "id": "12133081",
         "listingDate": "2025-05-23T00:00:00.000",
         "event": {
@@ -1265,7 +1256,7 @@
             "contentUrl": "/events/2133081",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 17,
+            "attending": 26,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -1325,6 +1316,56 @@
         }
     },
     {
+        "id": "12130935",
+        "listingDate": "2025-05-23T00:00:00.000",
+        "event": {
+            "id": "2130935",
+            "date": "2025-05-23T00:00:00.000",
+            "startTime": "2025-05-23T19:00:00.000",
+            "endTime": "2025-05-24T02:00:00.000",
+            "title": "Hold Me (Movement Edition)",
+            "contentUrl": "/events/2130935",
+            "flyerFront": null,
+            "isTicketed": true,
+            "attending": 20,
+            "queueItEnabled": false,
+            "newEventForm": true,
+            "images": [
+                {
+                    "id": "2150020",
+                    "filename": "https://images.ra.co/fb707de9be2956a441ff6f2cc1655fe6e9ebd45a.jpg",
+                    "alt": null,
+                    "type": "FLYERFRONT",
+                    "crop": null,
+                    "__typename": "EventImage"
+                }
+            ],
+            "pick": null,
+            "venue": {
+                "id": "101178",
+                "name": "UFO Bar",
+                "contentUrl": "/clubs/101178",
+                "live": true,
+                "__typename": "Venue"
+            },
+            "__typename": "Event",
+            "artists": [
+                {
+                    "id": "141783",
+                    "name": "wetdogg",
+                    "__typename": "Artist"
+                }
+            ],
+            "genres": []
+        },
+        "__typename": "EventListing",
+        "ticket_info": {
+            "tier": "1st release",
+            "price": "$17.15",
+            "current_tier": "2 of 3"
+        }
+    },
+    {
         "id": "12153787",
         "listingDate": "2025-05-23T00:00:00.000",
         "event": {
@@ -1336,7 +1377,7 @@
             "contentUrl": "/events/2153787",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 5,
+            "attending": 17,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -1384,9 +1425,70 @@
         },
         "__typename": "EventListing",
         "ticket_info": {
+            "tier": "General admission",
+            "price": "$22.85",
+            "current_tier": "2 of 2"
+        }
+    },
+    {
+        "id": "12159479",
+        "listingDate": "2025-05-23T00:00:00.000",
+        "event": {
+            "id": "2159479",
+            "date": "2025-05-23T00:00:00.000",
+            "startTime": "2025-05-23T20:00:00.000",
+            "endTime": "2025-05-24T04:00:00.000",
+            "title": "Haute to Death and Marble Bar pres: CRUISE CONTROL",
+            "contentUrl": "/events/2159479",
+            "flyerFront": null,
+            "isTicketed": true,
+            "attending": 20,
+            "queueItEnabled": false,
+            "newEventForm": true,
+            "images": [
+                {
+                    "id": "2186092",
+                    "filename": "https://images.ra.co/903388d3f4643391d913699f5dc72dd67d441ed6.jpg",
+                    "alt": null,
+                    "type": "FLYERFRONT",
+                    "crop": null,
+                    "__typename": "EventImage"
+                }
+            ],
+            "pick": null,
+            "venue": {
+                "id": "110904",
+                "name": "Marble Bar",
+                "contentUrl": "/clubs/110904",
+                "live": true,
+                "__typename": "Venue"
+            },
+            "__typename": "Event",
+            "artists": [
+                {
+                    "id": "107341",
+                    "name": "Haute to Death",
+                    "__typename": "Artist"
+                }
+            ],
+            "genres": [
+                {
+                    "name": "House",
+                    "slug": "house",
+                    "__typename": "Genre"
+                },
+                {
+                    "name": "Disco",
+                    "slug": "disco",
+                    "__typename": "Genre"
+                }
+            ]
+        },
+        "__typename": "EventListing",
+        "ticket_info": {
             "tier": "Early bird",
-            "price": "$17.15",
-            "current_tier": "1 of 2"
+            "price": "$27.15",
+            "current_tier": "1 of 4"
         }
     },
     {
@@ -1401,7 +1503,7 @@
             "contentUrl": "/events/2088502",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 445,
+            "attending": 455,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -1521,7 +1623,7 @@
             "contentUrl": "/events/2101109",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 158,
+            "attending": 170,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -1587,7 +1689,7 @@
             "contentUrl": "/events/2132858",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 147,
+            "attending": 157,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -1766,7 +1868,7 @@
             "contentUrl": "/events/2129829",
             "flyerFront": null,
             "isTicketed": false,
-            "attending": 65,
+            "attending": 78,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -1847,7 +1949,7 @@
             "contentUrl": "/events/2111036",
             "flyerFront": null,
             "isTicketed": false,
-            "attending": 36,
+            "attending": 40,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -1903,7 +2005,7 @@
             "contentUrl": "/events/2115001",
             "flyerFront": null,
             "isTicketed": false,
-            "attending": 31,
+            "attending": 34,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -2012,7 +2114,7 @@
             "contentUrl": "/events/2152352",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 28,
+            "attending": 30,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -2075,87 +2177,6 @@
         }
     },
     {
-        "id": "12145090",
-        "listingDate": "2025-05-23T00:00:00.000",
-        "event": {
-            "id": "2145090",
-            "date": "2025-05-23T00:00:00.000",
-            "startTime": "2025-05-23T14:00:00.000",
-            "endTime": "2025-05-24T02:00:00.000",
-            "title": "Drop it like it's Hot Dog Unit",
-            "contentUrl": "/events/2145090",
-            "flyerFront": null,
-            "isTicketed": true,
-            "attending": 21,
-            "queueItEnabled": false,
-            "newEventForm": true,
-            "images": [
-                {
-                    "id": "2167851",
-                    "filename": "https://images.ra.co/399a515471c88927221b615ce125753c2272b8b6.jpg",
-                    "alt": null,
-                    "type": "FLYERFRONT",
-                    "crop": null,
-                    "__typename": "EventImage"
-                }
-            ],
-            "pick": null,
-            "venue": {
-                "id": "37382",
-                "name": "Third Street Bar",
-                "contentUrl": "/clubs/37382",
-                "live": true,
-                "__typename": "Venue"
-            },
-            "__typename": "Event",
-            "artists": [
-                {
-                    "id": "106629",
-                    "name": "Andrea Ghita",
-                    "__typename": "Artist"
-                },
-                {
-                    "id": "111746",
-                    "name": "Duck Trash",
-                    "__typename": "Artist"
-                },
-                {
-                    "id": "12498",
-                    "name": "Duke Shin",
-                    "__typename": "Artist"
-                },
-                {
-                    "id": "106636",
-                    "name": "Jorissen",
-                    "__typename": "Artist"
-                },
-                {
-                    "id": "54795",
-                    "name": "Loren",
-                    "__typename": "Artist"
-                }
-            ],
-            "genres": [
-                {
-                    "name": "Electro",
-                    "slug": "electro",
-                    "__typename": "Genre"
-                },
-                {
-                    "name": "Minimal",
-                    "slug": "minimal",
-                    "__typename": "Genre"
-                }
-            ]
-        },
-        "__typename": "EventListing",
-        "ticket_info": {
-            "tier": "1st release",
-            "price": "$15.00",
-            "current_tier": "2 of 5"
-        }
-    },
-    {
         "id": "12130904",
         "listingDate": "2025-05-23T00:00:00.000",
         "event": {
@@ -2167,7 +2188,7 @@
             "contentUrl": "/events/2130904",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 19,
+            "attending": 26,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -2242,24 +2263,24 @@
         }
     },
     {
-        "id": "12134088",
+        "id": "12145090",
         "listingDate": "2025-05-23T00:00:00.000",
         "event": {
-            "id": "2134088",
+            "id": "2145090",
             "date": "2025-05-23T00:00:00.000",
-            "startTime": "2025-05-23T22:00:00.000",
-            "endTime": "2025-05-24T04:00:00.000",
-            "title": "First Frequency",
-            "contentUrl": "/events/2134088",
+            "startTime": "2025-05-23T14:00:00.000",
+            "endTime": "2025-05-24T02:00:00.000",
+            "title": "Drop it like it's Hot Dog Unit",
+            "contentUrl": "/events/2145090",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 12,
+            "attending": 27,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
                 {
-                    "id": "2151901",
-                    "filename": "https://images.ra.co/0b6abf47f4838e4791345df1358ef9e34babffa8.png",
+                    "id": "2167851",
+                    "filename": "https://images.ra.co/399a515471c88927221b615ce125753c2272b8b6.jpg",
                     "alt": null,
                     "type": "FLYERFRONT",
                     "crop": null,
@@ -2268,255 +2289,58 @@
             ],
             "pick": null,
             "venue": {
-                "id": "260802",
-                "name": "TBA - Midnight temple",
-                "contentUrl": null,
-                "live": false,
-                "__typename": "Venue"
-            },
-            "__typename": "Event",
-            "artists": [
-                {
-                    "id": "99808",
-                    "name": "Botez",
-                    "__typename": "Artist"
-                },
-                {
-                    "id": "103410",
-                    "name": "Dalton Taylor",
-                    "__typename": "Artist"
-                },
-                {
-                    "id": "112271",
-                    "name": "EREZ.JPG",
-                    "__typename": "Artist"
-                },
-                {
-                    "id": "153589",
-                    "name": "shantymane",
-                    "__typename": "Artist"
-                },
-                {
-                    "id": "126451",
-                    "name": "Michael Nigro",
-                    "__typename": "Artist"
-                }
-            ],
-            "genres": [
-                {
-                    "name": "Techno",
-                    "slug": "techno",
-                    "__typename": "Genre"
-                },
-                {
-                    "name": "House",
-                    "slug": "house",
-                    "__typename": "Genre"
-                }
-            ]
-        },
-        "__typename": "EventListing",
-        "ticket_info": {
-            "tier": "Early bird",
-            "price": "$0.00",
-            "current_tier": "1 of 2"
-        }
-    },
-    {
-        "id": "12151857",
-        "listingDate": "2025-05-23T00:00:00.000",
-        "event": {
-            "id": "2151857",
-            "date": "2025-05-23T00:00:00.000",
-            "startTime": "2025-05-23T21:00:00.000",
-            "endTime": "2025-05-24T02:00:00.000",
-            "title": "So It Goes",
-            "contentUrl": "/events/2151857",
-            "flyerFront": null,
-            "isTicketed": true,
-            "attending": 10,
-            "queueItEnabled": false,
-            "newEventForm": true,
-            "images": [
-                {
-                    "id": "2175537",
-                    "filename": "https://images.ra.co/57b5a183418ca63f27953650ace43d796d8dc145.png",
-                    "alt": "Flyer by Gino",
-                    "type": "FLYERFRONT",
-                    "crop": null,
-                    "__typename": "EventImage"
-                }
-            ],
-            "pick": null,
-            "venue": {
-                "id": "103918",
-                "name": "The Whisky Parlor",
-                "contentUrl": "/clubs/103918",
+                "id": "37382",
+                "name": "Third Street Bar",
+                "contentUrl": "/clubs/37382",
                 "live": true,
                 "__typename": "Venue"
             },
             "__typename": "Event",
             "artists": [
                 {
-                    "id": "17267",
-                    "name": "Ohm Hourani",
+                    "id": "106629",
+                    "name": "Andrea Ghita",
                     "__typename": "Artist"
                 },
                 {
-                    "id": "87613",
-                    "name": "Gino (2)",
+                    "id": "111746",
+                    "name": "Duck Trash",
                     "__typename": "Artist"
                 },
                 {
-                    "id": "155187",
-                    "name": "Britty",
+                    "id": "12498",
+                    "name": "Duke Shin",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "106636",
+                    "name": "Jorissen",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "54795",
+                    "name": "Loren",
                     "__typename": "Artist"
                 }
             ],
             "genres": [
+                {
+                    "name": "Electro",
+                    "slug": "electro",
+                    "__typename": "Genre"
+                },
                 {
                     "name": "Minimal",
                     "slug": "minimal",
                     "__typename": "Genre"
-                },
-                {
-                    "name": "Deep House",
-                    "slug": "deephouse",
-                    "__typename": "Genre"
                 }
             ]
         },
         "__typename": "EventListing",
         "ticket_info": {
-            "tier": "General admission",
-            "price": "$25.00",
-            "current_tier": "1 of 1"
-        }
-    },
-    {
-        "id": "12124720",
-        "listingDate": "2025-05-23T00:00:00.000",
-        "event": {
-            "id": "2124720",
-            "date": "2025-05-23T00:00:00.000",
-            "startTime": "2025-05-23T13:00:00.000",
-            "endTime": "2025-05-23T19:00:00.000",
-            "title": "Echos of Detroit -OWM",
-            "contentUrl": "/events/2124720",
-            "flyerFront": null,
-            "isTicketed": false,
-            "attending": 8,
-            "queueItEnabled": false,
-            "newEventForm": true,
-            "images": [
-                {
-                    "id": "2139104",
-                    "filename": "https://images.ra.co/98dd670cfe6a9a967067e5aa128766980a23d76f.jpg",
-                    "alt": null,
-                    "type": "FLYERFRONT",
-                    "crop": null,
-                    "__typename": "EventImage"
-                }
-            ],
-            "pick": null,
-            "venue": {
-                "id": "259827",
-                "name": "TBA - old western market",
-                "contentUrl": null,
-                "live": false,
-                "__typename": "Venue"
-            },
-            "__typename": "Event",
-            "artists": [
-                {
-                    "id": "124221",
-                    "name": "Ginger Snap",
-                    "__typename": "Artist"
-                },
-                {
-                    "id": "142015",
-                    "name": "DJ Candor",
-                    "__typename": "Artist"
-                }
-            ],
-            "genres": [
-                {
-                    "name": "Techno",
-                    "slug": "techno",
-                    "__typename": "Genre"
-                },
-                {
-                    "name": "House",
-                    "slug": "house",
-                    "__typename": "Genre"
-                }
-            ]
-        },
-        "__typename": "EventListing",
-        "ticket_info": {
-            "tier": null,
-            "price": null,
-            "current_tier": null
-        }
-    },
-    {
-        "id": "12153351",
-        "listingDate": "2025-05-23T00:00:00.000",
-        "event": {
-            "id": "2153351",
-            "date": "2025-05-23T00:00:00.000",
-            "startTime": "2025-05-23T19:00:00.000",
-            "endTime": "2025-05-24T00:00:00.000",
-            "title": "Motion Group",
-            "contentUrl": "/events/2153351",
-            "flyerFront": null,
-            "isTicketed": true,
-            "attending": 7,
-            "queueItEnabled": false,
-            "newEventForm": true,
-            "images": [
-                {
-                    "id": "2177893",
-                    "filename": "https://images.ra.co/2dac4ee368ac971cbb4d525cb39db74fd19bca73.png",
-                    "alt": null,
-                    "type": "FLYERFRONT",
-                    "crop": null,
-                    "__typename": "EventImage"
-                }
-            ],
-            "pick": null,
-            "venue": {
-                "id": "235196",
-                "name": "Moondog Cafe",
-                "contentUrl": "/clubs/235196",
-                "live": true,
-                "__typename": "Venue"
-            },
-            "__typename": "Event",
-            "artists": [
-                {
-                    "id": "55571",
-                    "name": "DJ Fleg",
-                    "__typename": "Artist"
-                },
-                {
-                    "id": "130289",
-                    "name": "Tom McBride",
-                    "__typename": "Artist"
-                },
-                {
-                    "id": "130273",
-                    "name": "Venn Diagramm",
-                    "__typename": "Artist"
-                }
-            ],
-            "genres": []
-        },
-        "__typename": "EventListing",
-        "ticket_info": {
-            "tier": "Early bird",
-            "price": "$10.00",
-            "current_tier": "1 of 2"
+            "tier": "1st release",
+            "price": "$15.00",
+            "current_tier": "2 of 5"
         }
     },
     {
@@ -2531,7 +2355,7 @@
             "contentUrl": "/events/2154372",
             "flyerFront": null,
             "isTicketed": false,
-            "attending": 9,
+            "attending": 25,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -2606,6 +2430,284 @@
         }
     },
     {
+        "id": "12151857",
+        "listingDate": "2025-05-23T00:00:00.000",
+        "event": {
+            "id": "2151857",
+            "date": "2025-05-23T00:00:00.000",
+            "startTime": "2025-05-23T21:00:00.000",
+            "endTime": "2025-05-24T02:00:00.000",
+            "title": "So It Goes",
+            "contentUrl": "/events/2151857",
+            "flyerFront": null,
+            "isTicketed": true,
+            "attending": 14,
+            "queueItEnabled": false,
+            "newEventForm": true,
+            "images": [
+                {
+                    "id": "2175537",
+                    "filename": "https://images.ra.co/57b5a183418ca63f27953650ace43d796d8dc145.png",
+                    "alt": "Flyer by Gino",
+                    "type": "FLYERFRONT",
+                    "crop": null,
+                    "__typename": "EventImage"
+                }
+            ],
+            "pick": null,
+            "venue": {
+                "id": "103918",
+                "name": "The Whisky Parlor",
+                "contentUrl": "/clubs/103918",
+                "live": true,
+                "__typename": "Venue"
+            },
+            "__typename": "Event",
+            "artists": [
+                {
+                    "id": "17267",
+                    "name": "Ohm Hourani",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "87613",
+                    "name": "Gino (2)",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "155187",
+                    "name": "Britty",
+                    "__typename": "Artist"
+                }
+            ],
+            "genres": [
+                {
+                    "name": "Minimal",
+                    "slug": "minimal",
+                    "__typename": "Genre"
+                },
+                {
+                    "name": "Deep House",
+                    "slug": "deephouse",
+                    "__typename": "Genre"
+                }
+            ]
+        },
+        "__typename": "EventListing",
+        "ticket_info": {
+            "tier": "General admission",
+            "price": "$25.00",
+            "current_tier": "1 of 1"
+        }
+    },
+    {
+        "id": "12134088",
+        "listingDate": "2025-05-23T00:00:00.000",
+        "event": {
+            "id": "2134088",
+            "date": "2025-05-23T00:00:00.000",
+            "startTime": "2025-05-23T22:00:00.000",
+            "endTime": "2025-05-24T04:00:00.000",
+            "title": "First Frequency",
+            "contentUrl": "/events/2134088",
+            "flyerFront": null,
+            "isTicketed": true,
+            "attending": 13,
+            "queueItEnabled": false,
+            "newEventForm": true,
+            "images": [
+                {
+                    "id": "2151901",
+                    "filename": "https://images.ra.co/0b6abf47f4838e4791345df1358ef9e34babffa8.png",
+                    "alt": null,
+                    "type": "FLYERFRONT",
+                    "crop": null,
+                    "__typename": "EventImage"
+                }
+            ],
+            "pick": null,
+            "venue": {
+                "id": "260802",
+                "name": "TBA - Midnight temple",
+                "contentUrl": null,
+                "live": false,
+                "__typename": "Venue"
+            },
+            "__typename": "Event",
+            "artists": [
+                {
+                    "id": "99808",
+                    "name": "Botez",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "103410",
+                    "name": "Dalton Taylor",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "112271",
+                    "name": "EREZ.JPG",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "153589",
+                    "name": "shantymane",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "126451",
+                    "name": "Michael Nigro",
+                    "__typename": "Artist"
+                }
+            ],
+            "genres": [
+                {
+                    "name": "Techno",
+                    "slug": "techno",
+                    "__typename": "Genre"
+                },
+                {
+                    "name": "House",
+                    "slug": "house",
+                    "__typename": "Genre"
+                }
+            ]
+        },
+        "__typename": "EventListing",
+        "ticket_info": {
+            "tier": "Early bird",
+            "price": "$0.00",
+            "current_tier": "1 of 2"
+        }
+    },
+    {
+        "id": "12124720",
+        "listingDate": "2025-05-23T00:00:00.000",
+        "event": {
+            "id": "2124720",
+            "date": "2025-05-23T00:00:00.000",
+            "startTime": "2025-05-23T13:00:00.000",
+            "endTime": "2025-05-23T19:00:00.000",
+            "title": "Echos of Detroit -OWM",
+            "contentUrl": "/events/2124720",
+            "flyerFront": null,
+            "isTicketed": false,
+            "attending": 11,
+            "queueItEnabled": false,
+            "newEventForm": true,
+            "images": [
+                {
+                    "id": "2139104",
+                    "filename": "https://images.ra.co/98dd670cfe6a9a967067e5aa128766980a23d76f.jpg",
+                    "alt": null,
+                    "type": "FLYERFRONT",
+                    "crop": null,
+                    "__typename": "EventImage"
+                }
+            ],
+            "pick": null,
+            "venue": {
+                "id": "259827",
+                "name": "TBA - old western market",
+                "contentUrl": null,
+                "live": false,
+                "__typename": "Venue"
+            },
+            "__typename": "Event",
+            "artists": [
+                {
+                    "id": "124221",
+                    "name": "Ginger Snap",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "142015",
+                    "name": "DJ Candor",
+                    "__typename": "Artist"
+                }
+            ],
+            "genres": [
+                {
+                    "name": "Techno",
+                    "slug": "techno",
+                    "__typename": "Genre"
+                },
+                {
+                    "name": "House",
+                    "slug": "house",
+                    "__typename": "Genre"
+                }
+            ]
+        },
+        "__typename": "EventListing",
+        "ticket_info": {
+            "tier": null,
+            "price": null,
+            "current_tier": null
+        }
+    },
+    {
+        "id": "12153351",
+        "listingDate": "2025-05-23T00:00:00.000",
+        "event": {
+            "id": "2153351",
+            "date": "2025-05-23T00:00:00.000",
+            "startTime": "2025-05-23T19:00:00.000",
+            "endTime": "2025-05-24T00:00:00.000",
+            "title": "Motion Group",
+            "contentUrl": "/events/2153351",
+            "flyerFront": null,
+            "isTicketed": true,
+            "attending": 9,
+            "queueItEnabled": false,
+            "newEventForm": true,
+            "images": [
+                {
+                    "id": "2177893",
+                    "filename": "https://images.ra.co/2dac4ee368ac971cbb4d525cb39db74fd19bca73.png",
+                    "alt": null,
+                    "type": "FLYERFRONT",
+                    "crop": null,
+                    "__typename": "EventImage"
+                }
+            ],
+            "pick": null,
+            "venue": {
+                "id": "235196",
+                "name": "Moondog Cafe",
+                "contentUrl": "/clubs/235196",
+                "live": true,
+                "__typename": "Venue"
+            },
+            "__typename": "Event",
+            "artists": [
+                {
+                    "id": "55571",
+                    "name": "DJ Fleg",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "130289",
+                    "name": "Tom McBride",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "130273",
+                    "name": "Venn Diagramm",
+                    "__typename": "Artist"
+                }
+            ],
+            "genres": []
+        },
+        "__typename": "EventListing",
+        "ticket_info": {
+            "tier": "Early bird",
+            "price": "$10.00",
+            "current_tier": "1 of 2"
+        }
+    },
+    {
         "id": "12130939",
         "listingDate": "2025-05-23T00:00:00.000",
         "event": {
@@ -2617,7 +2719,7 @@
             "contentUrl": "/events/2130939",
             "flyerFront": null,
             "isTicketed": false,
-            "attending": 2,
+            "attending": 3,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [],
@@ -2663,20 +2765,24 @@
             "contentUrl": "/events/2104429",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 1888,
+            "attending": 1973,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
                 {
-                    "id": "2111324",
-                    "filename": "https://images.ra.co/69757034bad6efc4e4100b4fe82afcf707c1379e.png",
+                    "id": "2183343",
+                    "filename": "https://images.ra.co/1b127f7421cc1758e632de3435a7be8044f79ca0.png",
                     "alt": null,
                     "type": "FLYERFRONT",
                     "crop": null,
                     "__typename": "EventImage"
                 }
             ],
-            "pick": null,
+            "pick": {
+                "id": "41797",
+                "blurb": "Experience total sonic immersion as Midwest rave icon DVS1 brings his sound system-centric vision to Detroit: a singular techno journey from the underground\u2019s most formidable DJs.",
+                "__typename": "EventPick"
+            },
             "venue": {
                 "id": "3802",
                 "name": "Bert's Warehouse Theater",
@@ -2685,7 +2791,38 @@
                 "__typename": "Venue"
             },
             "__typename": "Event",
-            "artists": [],
+            "artists": [
+                {
+                    "id": "1017",
+                    "name": "Anthony Rother",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "4426",
+                    "name": "Dasha Rush",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "118976",
+                    "name": "Disruptive Pattern Material",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "6692",
+                    "name": "DJ Pete",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "9311",
+                    "name": "DVS1",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "7949",
+                    "name": "Traxx",
+                    "__typename": "Artist"
+                }
+            ],
             "genres": [
                 {
                     "name": "Techno",
@@ -2701,9 +2838,9 @@
         },
         "__typename": "EventListing",
         "ticket_info": {
-            "tier": "4th release",
-            "price": "$80.00",
-            "current_tier": "5 of 6"
+            "tier": "Combo 5.24 Wall of Sound/ 5.25 999999999 Invites/ 5.26 Anthology",
+            "price": "$200.00",
+            "current_tier": "4 of 4"
         }
     },
     {
@@ -2718,7 +2855,7 @@
             "contentUrl": "/events/2085466",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 1376,
+            "attending": 1410,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -2966,7 +3103,7 @@
             "contentUrl": "/events/2034173",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 781,
+            "attending": 836,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -3053,9 +3190,9 @@
         },
         "__typename": "EventListing",
         "ticket_info": {
-            "tier": "Final release",
+            "tier": "5th release",
             "price": "$57.15",
-            "current_tier": "5 of 5"
+            "current_tier": "5 of 6"
         }
     },
     {
@@ -3070,7 +3207,7 @@
             "contentUrl": "/events/2085408",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 758,
+            "attending": 816,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -3177,7 +3314,7 @@
             "contentUrl": "/events/2136180",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 699,
+            "attending": 754,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -3327,7 +3464,7 @@
             "contentUrl": "/events/2089123",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 410,
+            "attending": 423,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -3413,11 +3550,11 @@
             "date": "2025-05-24T00:00:00.000",
             "startTime": "2025-05-24T15:00:00.000",
             "endTime": "2025-05-24T21:00:00.000",
-            "title": "Underground & Black Detroit 2025: Motortown Revue Day Party",
+            "title": "Underground & Black Detroit Vol. 5 - Motortown Revue Day Party",
             "contentUrl": "/events/2140905",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 262,
+            "attending": 305,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -3513,7 +3650,7 @@
             "contentUrl": "/events/2077542",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 222,
+            "attending": 237,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -3589,7 +3726,7 @@
             "contentUrl": "/events/2120994",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 204,
+            "attending": 229,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -3633,6 +3770,11 @@
                     "__typename": "Artist"
                 },
                 {
+                    "id": "99875",
+                    "name": "Ayesha",
+                    "__typename": "Artist"
+                },
+                {
                     "id": "110602",
                     "name": "Blackmoonchild",
                     "__typename": "Artist"
@@ -3670,7 +3812,7 @@
             "contentUrl": "/events/2096440",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 168,
+            "attending": 177,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -3751,7 +3893,7 @@
             "contentUrl": "/events/2136172",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 128,
+            "attending": 145,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -3996,7 +4138,7 @@
             "contentUrl": "/events/2141765",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 117,
+            "attending": 146,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -4018,7 +4160,58 @@
                 "__typename": "Venue"
             },
             "__typename": "Event",
-            "artists": [],
+            "artists": [
+                {
+                    "id": "4298",
+                    "name": "Map.ache",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "921",
+                    "name": "Dandy Jack",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "1731",
+                    "name": "Move D",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "7556",
+                    "name": "Eduardo de la Calle",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "12067",
+                    "name": "Konstantin",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "3684",
+                    "name": "Edward",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "108999",
+                    "name": "Tau Car",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "106314",
+                    "name": "Sibil (1)",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "66814",
+                    "name": "Mayell",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "4421",
+                    "name": "Cosmo",
+                    "__typename": "Artist"
+                }
+            ],
             "genres": [
                 {
                     "name": "Techno",
@@ -4051,7 +4244,7 @@
             "contentUrl": "/events/2125585",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 109,
+            "attending": 116,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -4106,7 +4299,7 @@
             "contentUrl": "/events/2110495",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 66,
+            "attending": 67,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -4181,7 +4374,7 @@
             "contentUrl": "/events/2149222",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 32,
+            "attending": 54,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -4266,7 +4459,7 @@
             "contentUrl": "/events/2061680",
             "flyerFront": null,
             "isTicketed": false,
-            "attending": 249,
+            "attending": 264,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -4891,7 +5084,7 @@
             "contentUrl": "/events/2129825",
             "flyerFront": null,
             "isTicketed": false,
-            "attending": 77,
+            "attending": 84,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -4982,7 +5175,7 @@
             "contentUrl": "/events/2148002",
             "flyerFront": null,
             "isTicketed": false,
-            "attending": 59,
+            "attending": 87,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -5108,7 +5301,7 @@
             "contentUrl": "/events/2121610",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 45,
+            "attending": 55,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -5197,7 +5390,7 @@
             "contentUrl": "/events/2144813",
             "flyerFront": null,
             "isTicketed": false,
-            "attending": 41,
+            "attending": 52,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -5252,13 +5445,13 @@
             "contentUrl": "/events/2120973",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 39,
+            "attending": 42,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
                 {
-                    "id": "2133962",
-                    "filename": "https://images.ra.co/7fc361f7397d391b4a12324243489966aadabde6.jpg",
+                    "id": "2184948",
+                    "filename": "https://images.ra.co/ea721966dd6b3b9bdcb38c7a32c32035d8d28509.png",
                     "alt": null,
                     "type": "FLYERFRONT",
                     "crop": null,
@@ -5274,7 +5467,28 @@
                 "__typename": "Venue"
             },
             "__typename": "Event",
-            "artists": [],
+            "artists": [
+                {
+                    "id": "110378",
+                    "name": "Sheefy McFly",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "76737",
+                    "name": "Milan Ariel",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "22708",
+                    "name": "Sinistarr",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "20076",
+                    "name": "Jeremiah Green",
+                    "__typename": "Artist"
+                }
+            ],
             "genres": [
                 {
                     "name": "Techno",
@@ -5290,9 +5504,9 @@
         },
         "__typename": "EventListing",
         "ticket_info": {
-            "tier": null,
-            "price": null,
-            "current_tier": null
+            "tier": "General admission",
+            "price": "$28.55",
+            "current_tier": "2 of 2"
         }
     },
     {
@@ -5331,80 +5545,6 @@
         }
     },
     {
-        "id": "12133229",
-        "listingDate": "2025-05-24T00:00:00.000",
-        "event": {
-            "id": "2133229",
-            "date": "2025-05-24T00:00:00.000",
-            "startTime": "2025-05-24T12:00:00.000",
-            "endTime": "2025-05-24T18:00:00.000",
-            "title": "Wake Up Call - Memorial Day Weekend Kickoff Party",
-            "contentUrl": "/events/2133229",
-            "flyerFront": null,
-            "isTicketed": true,
-            "attending": 14,
-            "queueItEnabled": false,
-            "newEventForm": true,
-            "images": [
-                {
-                    "id": "2150740",
-                    "filename": "https://images.ra.co/7e3eb91f5ebeac1ae9840c9349b21442c6f8fee8.png",
-                    "alt": null,
-                    "type": "FLYERFRONT",
-                    "crop": null,
-                    "__typename": "EventImage"
-                },
-                {
-                    "id": "2157815",
-                    "filename": "https://images.ra.co/3710ed388b7e818fe02c3419e4b59441f87df313.jpg",
-                    "alt": null,
-                    "type": "FLYERBACK",
-                    "crop": null,
-                    "__typename": "EventImage"
-                }
-            ],
-            "pick": null,
-            "venue": {
-                "id": "151458",
-                "name": "Level Two Bar & Rooftop",
-                "contentUrl": "/clubs/151458",
-                "live": true,
-                "__typename": "Venue"
-            },
-            "__typename": "Event",
-            "artists": [
-                {
-                    "id": "160003",
-                    "name": "DISCOBOT",
-                    "__typename": "Artist"
-                },
-                {
-                    "id": "161359",
-                    "name": "Fiending Hours",
-                    "__typename": "Artist"
-                }
-            ],
-            "genres": [
-                {
-                    "name": "House",
-                    "slug": "house",
-                    "__typename": "Genre"
-                },
-                {
-                    "name": "Tech House",
-                    "slug": "techhouse",
-                    "__typename": "Genre"
-                }
-            ]
-        },
-        "__typename": "EventListing",
-        "ticket_info": {
-            "tier": "General admission",
-            "price": "$22.85",
-            "current_tier": "1 of 1"
-        }
-    },
-    {
         "id": "12150147",
         "listingDate": "2025-05-24T00:00:00.000",
         "event": {
@@ -5416,7 +5556,7 @@
             "contentUrl": "/events/2150147",
             "flyerFront": null,
             "isTicketed": false,
-            "attending": 13,
+            "attending": 21,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [],
@@ -5503,7 +5643,7 @@
             "contentUrl": "/events/2152024",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 11,
+            "attending": 15,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -5631,6 +5771,164 @@
         }
     },
     {
+        "id": "12133229",
+        "listingDate": "2025-05-24T00:00:00.000",
+        "event": {
+            "id": "2133229",
+            "date": "2025-05-24T00:00:00.000",
+            "startTime": "2025-05-24T12:00:00.000",
+            "endTime": "2025-05-24T18:00:00.000",
+            "title": "Wake Up Call - Memorial Day Weekend Kickoff Party",
+            "contentUrl": "/events/2133229",
+            "flyerFront": null,
+            "isTicketed": true,
+            "attending": 14,
+            "queueItEnabled": false,
+            "newEventForm": true,
+            "images": [
+                {
+                    "id": "2150740",
+                    "filename": "https://images.ra.co/7e3eb91f5ebeac1ae9840c9349b21442c6f8fee8.png",
+                    "alt": null,
+                    "type": "FLYERFRONT",
+                    "crop": null,
+                    "__typename": "EventImage"
+                },
+                {
+                    "id": "2157815",
+                    "filename": "https://images.ra.co/3710ed388b7e818fe02c3419e4b59441f87df313.jpg",
+                    "alt": null,
+                    "type": "FLYERBACK",
+                    "crop": null,
+                    "__typename": "EventImage"
+                }
+            ],
+            "pick": null,
+            "venue": {
+                "id": "151458",
+                "name": "Level Two Bar & Rooftop",
+                "contentUrl": "/clubs/151458",
+                "live": true,
+                "__typename": "Venue"
+            },
+            "__typename": "Event",
+            "artists": [
+                {
+                    "id": "160003",
+                    "name": "DISCOBOT",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "161359",
+                    "name": "Fiending Hours",
+                    "__typename": "Artist"
+                }
+            ],
+            "genres": [
+                {
+                    "name": "House",
+                    "slug": "house",
+                    "__typename": "Genre"
+                },
+                {
+                    "name": "Tech House",
+                    "slug": "techhouse",
+                    "__typename": "Genre"
+                }
+            ]
+        },
+        "__typename": "EventListing",
+        "ticket_info": {
+            "tier": "General admission",
+            "price": "$22.85",
+            "current_tier": "1 of 1"
+        }
+    },
+    {
+        "id": "12155447",
+        "listingDate": "2025-05-24T00:00:00.000",
+        "event": {
+            "id": "2155447",
+            "date": "2025-05-24T00:00:00.000",
+            "startTime": "2025-05-24T11:00:00.000",
+            "endTime": "2025-05-24T14:30:00.000",
+            "title": "Detroit Techno Tour #11 - Submerge Exibit 3000 & Iconic Train Station Rehabilitation ",
+            "contentUrl": "/events/2155447",
+            "flyerFront": null,
+            "isTicketed": true,
+            "attending": 12,
+            "queueItEnabled": false,
+            "newEventForm": true,
+            "images": [
+                {
+                    "id": "2180560",
+                    "filename": "https://images.ra.co/ef8ef3cda873c9120c55390a0cd6fc4b57aa5fc7.png",
+                    "alt": null,
+                    "type": "FLYERBACK",
+                    "crop": null,
+                    "__typename": "EventImage"
+                },
+                {
+                    "id": "2185924",
+                    "filename": "https://images.ra.co/f013a9f40073d88609f5038d76e3088cedd15438.png",
+                    "alt": null,
+                    "type": "FLYERFRONT",
+                    "crop": null,
+                    "__typename": "EventImage"
+                }
+            ],
+            "pick": null,
+            "venue": {
+                "id": "2074",
+                "name": "Hart Plaza",
+                "contentUrl": "/clubs/2074",
+                "live": true,
+                "__typename": "Venue"
+            },
+            "__typename": "Event",
+            "artists": [
+                {
+                    "id": "10213",
+                    "name": "Mike Agent X Clark",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "107952",
+                    "name": "DistantLover",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "21356",
+                    "name": "Drivetrain",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "17238",
+                    "name": "Gary Martin",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "61841",
+                    "name": "Human Robot",
+                    "__typename": "Artist"
+                }
+            ],
+            "genres": [
+                {
+                    "name": "Techno",
+                    "slug": "techno",
+                    "__typename": "Genre"
+                }
+            ]
+        },
+        "__typename": "EventListing",
+        "ticket_info": {
+            "tier": "Early bird",
+            "price": "$34.30",
+            "current_tier": "1 of 3"
+        }
+    },
+    {
         "id": "12149287",
         "listingDate": "2025-05-24T00:00:00.000",
         "event": {
@@ -5642,7 +5940,7 @@
             "contentUrl": "/events/2149287",
             "flyerFront": null,
             "isTicketed": false,
-            "attending": 7,
+            "attending": 11,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -5702,7 +6000,7 @@
             "contentUrl": "/events/2154563",
             "flyerFront": null,
             "isTicketed": false,
-            "attending": 4,
+            "attending": 7,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -5796,7 +6094,7 @@
             "contentUrl": "/events/2148190",
             "flyerFront": null,
             "isTicketed": false,
-            "attending": 3,
+            "attending": 4,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -5851,68 +6149,100 @@
         }
     },
     {
-        "id": "12155447",
+        "id": "12160422",
         "listingDate": "2025-05-24T00:00:00.000",
         "event": {
-            "id": "2155447",
+            "id": "2160422",
             "date": "2025-05-24T00:00:00.000",
-            "startTime": "2025-05-24T11:00:00.000",
-            "endTime": "2025-05-24T14:30:00.000",
-            "title": "Detroit Techno Tour #11 - Submerge Exibit 3000 & Iconic Train Station Rehabilitation ",
-            "contentUrl": "/events/2155447",
+            "startTime": "2025-05-24T16:00:00.000",
+            "endTime": "2025-05-25T05:00:00.000",
+            "title": "Welcome to Detroit",
+            "contentUrl": "/events/2160422",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 3,
+            "attending": 11,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
                 {
-                    "id": "2180559",
-                    "filename": "https://images.ra.co/dbac323f28b0b4a4ae65179bee097909c17195dc.jpg",
+                    "id": "2187347",
+                    "filename": "https://images.ra.co/a25aaf8e6d0586710f61a7697706f41928836545.jpg",
                     "alt": null,
                     "type": "FLYERFRONT",
-                    "crop": null,
-                    "__typename": "EventImage"
-                },
-                {
-                    "id": "2180560",
-                    "filename": "https://images.ra.co/ef8ef3cda873c9120c55390a0cd6fc4b57aa5fc7.png",
-                    "alt": null,
-                    "type": "FLYERBACK",
                     "crop": null,
                     "__typename": "EventImage"
                 }
             ],
             "pick": null,
             "venue": {
-                "id": "2074",
-                "name": "Hart Plaza",
-                "contentUrl": "/clubs/2074",
+                "id": "244924",
+                "name": "The Shadow Gallery",
+                "contentUrl": "/clubs/244924",
                 "live": true,
                 "__typename": "Venue"
             },
             "__typename": "Event",
             "artists": [
                 {
-                    "id": "10213",
-                    "name": "Mike Agent X Clark",
+                    "id": "3408",
+                    "name": "Delano Smith",
                     "__typename": "Artist"
                 },
                 {
-                    "id": "107952",
-                    "name": "DistantLover",
+                    "id": "13410",
+                    "name": "Norm Talley",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "3350",
+                    "name": "Jus-Ed",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "14677",
+                    "name": "Irfan Rainy",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "7200",
+                    "name": "E-Man",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "24290",
+                    "name": "Ron Allen",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "6872",
+                    "name": "Navid Navbox",
                     "__typename": "Artist"
                 },
                 {
                     "id": "21356",
                     "name": "Drivetrain",
                     "__typename": "Artist"
+                },
+                {
+                    "id": "121516",
+                    "name": "DJ Nola",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "51637",
+                    "name": "Devon James",
+                    "__typename": "Artist"
                 }
             ],
             "genres": [
                 {
-                    "name": "Techno",
-                    "slug": "techno",
+                    "name": "House",
+                    "slug": "house",
+                    "__typename": "Genre"
+                },
+                {
+                    "name": "Deep House",
+                    "slug": "deephouse",
                     "__typename": "Genre"
                 }
             ]
@@ -5922,6 +6252,63 @@
             "tier": "Early bird",
             "price": "$34.30",
             "current_tier": "1 of 3"
+        }
+    },
+    {
+        "id": "12157513",
+        "listingDate": "2025-05-24T00:00:00.000",
+        "event": {
+            "id": "2157513",
+            "date": "2025-05-24T00:00:00.000",
+            "startTime": "2025-05-24T20:00:00.000",
+            "endTime": "2025-05-25T02:00:00.000",
+            "title": "Move Me",
+            "contentUrl": "/events/2157513",
+            "flyerFront": null,
+            "isTicketed": true,
+            "attending": 1,
+            "queueItEnabled": false,
+            "newEventForm": true,
+            "images": [],
+            "pick": null,
+            "venue": {
+                "id": "37382",
+                "name": "Third Street Bar",
+                "contentUrl": "/clubs/37382",
+                "live": true,
+                "__typename": "Venue"
+            },
+            "__typename": "Event",
+            "artists": [
+                {
+                    "id": "14512",
+                    "name": "Eddie Fowlkes",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "138738",
+                    "name": "MIKE RANSOM",
+                    "__typename": "Artist"
+                }
+            ],
+            "genres": [
+                {
+                    "name": "Techno",
+                    "slug": "techno",
+                    "__typename": "Genre"
+                },
+                {
+                    "name": "Deep House",
+                    "slug": "deephouse",
+                    "__typename": "Genre"
+                }
+            ]
+        },
+        "__typename": "EventListing",
+        "ticket_info": {
+            "tier": "General admission",
+            "price": "$11.45",
+            "current_tier": "1 of 1"
         }
     },
     {
@@ -5936,7 +6323,7 @@
             "contentUrl": "/events/2085466",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 1376,
+            "attending": 1410,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -6184,7 +6571,7 @@
             "contentUrl": "/events/2085419",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 1226,
+            "attending": 1262,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -6302,7 +6689,7 @@
             "contentUrl": "/events/2136186",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 825,
+            "attending": 895,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -6452,7 +6839,7 @@
             "contentUrl": "/events/2091314",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 679,
+            "attending": 707,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -6583,7 +6970,7 @@
             "contentUrl": "/events/2120675",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 592,
+            "attending": 633,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -6669,7 +7056,7 @@
         "ticket_info": {
             "tier": "Any Time Entry - 4th release",
             "price": "$75.00",
-            "current_tier": "6 of 7"
+            "current_tier": "5 of 6"
         }
     },
     {
@@ -6684,7 +7071,7 @@
             "contentUrl": "/events/2089125",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 356,
+            "attending": 391,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -6767,9 +7154,118 @@
         },
         "__typename": "EventListing",
         "ticket_info": {
+            "tier": "3rd release",
+            "price": "$68.55",
+            "current_tier": "4 of 5"
+        }
+    },
+    {
+        "id": "12127783",
+        "listingDate": "2025-05-25T00:00:00.000",
+        "event": {
+            "id": "2127783",
+            "date": "2025-05-25T00:00:00.000",
+            "startTime": "2025-05-25T21:00:00.000",
+            "endTime": "2025-05-26T09:00:00.000",
+            "title": "Lincoln Factory pres. Theo Parrish/Moodymann",
+            "contentUrl": "/events/2127783",
+            "flyerFront": null,
+            "isTicketed": true,
+            "attending": 345,
+            "queueItEnabled": false,
+            "newEventForm": true,
+            "images": [
+                {
+                    "id": "2178059",
+                    "filename": "https://images.ra.co/09350becd0f67be5be463af0fb6ac32040c09ead.jpg",
+                    "alt": null,
+                    "type": "FLYERFRONT",
+                    "crop": null,
+                    "__typename": "EventImage"
+                },
+                {
+                    "id": "2187421",
+                    "filename": "https://images.ra.co/7ed596beb662aac3aaaed0ace19eaa47b90a48d0.jpg",
+                    "alt": null,
+                    "type": "FLYERBACK",
+                    "crop": null,
+                    "__typename": "EventImage"
+                }
+            ],
+            "pick": null,
+            "venue": {
+                "id": "232557",
+                "name": "Lincoln Factory",
+                "contentUrl": "/clubs/232557",
+                "live": true,
+                "__typename": "Venue"
+            },
+            "__typename": "Event",
+            "artists": [
+                {
+                    "id": "900",
+                    "name": "Theo Parrish",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "52115",
+                    "name": "Raphael Carrau",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "958",
+                    "name": "Moodymann",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "95412",
+                    "name": "Voodoos and Taboos",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "13556",
+                    "name": "Andr\u00e9s",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "19156",
+                    "name": "Sammir",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "102159",
+                    "name": "Jorge Escribano",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "76572",
+                    "name": "Bernat",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "142176",
+                    "name": "PETER GUY",
+                    "__typename": "Artist"
+                }
+            ],
+            "genres": [
+                {
+                    "name": "Techno",
+                    "slug": "techno",
+                    "__typename": "Genre"
+                },
+                {
+                    "name": "House",
+                    "slug": "house",
+                    "__typename": "Genre"
+                }
+            ]
+        },
+        "__typename": "EventListing",
+        "ticket_info": {
             "tier": "2nd release",
-            "price": "$62.85",
-            "current_tier": "3 of 5"
+            "price": "$75.45",
+            "current_tier": "3 of 3"
         }
     },
     {
@@ -6784,7 +7280,7 @@
             "contentUrl": "/events/2109116",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 292,
+            "attending": 307,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -6885,7 +7381,7 @@
             "contentUrl": "/events/2096417",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 254,
+            "attending": 269,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -6935,72 +7431,6 @@
         }
     },
     {
-        "id": "12127783",
-        "listingDate": "2025-05-25T00:00:00.000",
-        "event": {
-            "id": "2127783",
-            "date": "2025-05-25T00:00:00.000",
-            "startTime": "2025-05-25T21:00:00.000",
-            "endTime": "2025-05-26T09:00:00.000",
-            "title": "Lincoln Factory pres. Theo Parrish/Moodymann",
-            "contentUrl": "/events/2127783",
-            "flyerFront": null,
-            "isTicketed": true,
-            "attending": 211,
-            "queueItEnabled": false,
-            "newEventForm": true,
-            "images": [
-                {
-                    "id": "2178059",
-                    "filename": "https://images.ra.co/09350becd0f67be5be463af0fb6ac32040c09ead.jpg",
-                    "alt": null,
-                    "type": "FLYERFRONT",
-                    "crop": null,
-                    "__typename": "EventImage"
-                }
-            ],
-            "pick": null,
-            "venue": {
-                "id": "232557",
-                "name": "Lincoln Factory",
-                "contentUrl": "/clubs/232557",
-                "live": true,
-                "__typename": "Venue"
-            },
-            "__typename": "Event",
-            "artists": [
-                {
-                    "id": "900",
-                    "name": "Theo Parrish",
-                    "__typename": "Artist"
-                },
-                {
-                    "id": "958",
-                    "name": "Moodymann",
-                    "__typename": "Artist"
-                }
-            ],
-            "genres": [
-                {
-                    "name": "House",
-                    "slug": "house",
-                    "__typename": "Genre"
-                },
-                {
-                    "name": "Funk / Soul",
-                    "slug": "funksoul",
-                    "__typename": "Genre"
-                }
-            ]
-        },
-        "__typename": "EventListing",
-        "ticket_info": {
-            "tier": "1st release",
-            "price": "$68.55",
-            "current_tier": "2 of 2"
-        }
-    },
-    {
         "id": "22136172",
         "listingDate": "2025-05-25T00:00:00.000",
         "event": {
@@ -7012,7 +7442,7 @@
             "contentUrl": "/events/2136172",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 128,
+            "attending": 145,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -7257,14 +7687,14 @@
             "contentUrl": "/events/2119379",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 105,
+            "attending": 113,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
                 {
                     "id": "2131740",
                     "filename": "https://images.ra.co/e8e490365d570a4205920eeb0c8795daadb6f38d.jpg",
-                    "alt": null,
+                    "alt": "Excursions djs & Guest: Detroit 2025",
                     "type": "FLYERBACK",
                     "crop": null,
                     "__typename": "EventImage"
@@ -7346,7 +7776,7 @@
             "contentUrl": "/events/2143710",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 92,
+            "attending": 110,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -7447,7 +7877,7 @@
             "contentUrl": "/events/2149244",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 49,
+            "attending": 67,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -7517,7 +7947,7 @@
             "contentUrl": "/events/2140735",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 33,
+            "attending": 39,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -7587,7 +8017,7 @@
         "ticket_info": {
             "tier": "Early bird",
             "price": "$17.15",
-            "current_tier": "1 of 3"
+            "current_tier": "1 of 4"
         }
     },
     {
@@ -7602,7 +8032,7 @@
             "contentUrl": "/events/2061680",
             "flyerFront": null,
             "isTicketed": false,
-            "attending": 249,
+            "attending": 264,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -8227,7 +8657,7 @@
             "contentUrl": "/events/2115609",
             "flyerFront": null,
             "isTicketed": false,
-            "attending": 86,
+            "attending": 92,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -8308,7 +8738,7 @@
             "contentUrl": "/events/2144819",
             "flyerFront": null,
             "isTicketed": false,
-            "attending": 46,
+            "attending": 57,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -8363,7 +8793,7 @@
             "contentUrl": "/events/2129819",
             "flyerFront": null,
             "isTicketed": false,
-            "attending": 44,
+            "attending": 48,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -8509,7 +8939,7 @@
             "contentUrl": "/events/2125561",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 28,
+            "attending": 31,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -8579,52 +9009,6 @@
         }
     },
     {
-        "id": "12140554",
-        "listingDate": "2025-05-25T00:00:00.000",
-        "event": {
-            "id": "2140554",
-            "date": "2025-05-25T00:00:00.000",
-            "startTime": "2025-05-25T12:30:00.000",
-            "endTime": "2025-05-26T04:00:00.000",
-            "title": "Detroit Yacht Party 8",
-            "contentUrl": "/events/2140554",
-            "flyerFront": null,
-            "isTicketed": false,
-            "attending": 12,
-            "queueItEnabled": false,
-            "newEventForm": true,
-            "images": [],
-            "pick": null,
-            "venue": {
-                "id": "261426",
-                "name": "TBA - DIAMOND BELLE YACHT (Diamond Jacks River Tours)",
-                "contentUrl": null,
-                "live": false,
-                "__typename": "Venue"
-            },
-            "__typename": "Event",
-            "artists": [],
-            "genres": [
-                {
-                    "name": "Techno",
-                    "slug": "techno",
-                    "__typename": "Genre"
-                },
-                {
-                    "name": "Afro Tech",
-                    "slug": "afrotech",
-                    "__typename": "Genre"
-                }
-            ]
-        },
-        "__typename": "EventListing",
-        "ticket_info": {
-            "tier": null,
-            "price": null,
-            "current_tier": null
-        }
-    },
-    {
         "id": "22152024",
         "listingDate": "2025-05-25T00:00:00.000",
         "event": {
@@ -8636,7 +9020,7 @@
             "contentUrl": "/events/2152024",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 11,
+            "attending": 15,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -8764,102 +9148,43 @@
         }
     },
     {
-        "id": "12126711",
+        "id": "12140554",
         "listingDate": "2025-05-25T00:00:00.000",
         "event": {
-            "id": "2126711",
+            "id": "2140554",
             "date": "2025-05-25T00:00:00.000",
-            "startTime": "2025-05-25T12:00:00.000",
-            "endTime": "2025-05-26T12:00:00.000",
-            "title": "Detroit Diaspora Day Festival",
-            "contentUrl": "/events/2126711",
-            "flyerFront": null,
-            "isTicketed": true,
-            "attending": 7,
-            "queueItEnabled": false,
-            "newEventForm": true,
-            "images": [
-                {
-                    "id": "2141771",
-                    "filename": "https://images.ra.co/fa2c6270e7a56f0729870632015c988383be933c.jpg",
-                    "alt": null,
-                    "type": "FLYERFRONT",
-                    "crop": null,
-                    "__typename": "EventImage"
-                }
-            ],
-            "pick": null,
-            "venue": {
-                "id": "227255",
-                "name": "The Norwood Theatre",
-                "contentUrl": "/clubs/227255",
-                "live": true,
-                "__typename": "Venue"
-            },
-            "__typename": "Event",
-            "artists": [
-                {
-                    "id": "123920",
-                    "name": "dej.y",
-                    "__typename": "Artist"
-                }
-            ],
-            "genres": [
-                {
-                    "name": "Progressive House",
-                    "slug": "progressivehouse",
-                    "__typename": "Genre"
-                },
-                {
-                    "name": "Deep House",
-                    "slug": "deephouse",
-                    "__typename": "Genre"
-                }
-            ]
-        },
-        "__typename": "EventListing",
-        "ticket_info": {
-            "tier": "Early bird",
-            "price": "$22.85",
-            "current_tier": "1 of 2"
-        }
-    },
-    {
-        "id": "12149254",
-        "listingDate": "2025-05-25T00:00:00.000",
-        "event": {
-            "id": "2149254",
-            "date": "2025-05-25T00:00:00.000",
-            "startTime": "2025-05-25T11:00:00.000",
+            "startTime": "2025-05-25T12:30:00.000",
             "endTime": "2025-05-26T04:00:00.000",
-            "title": "Official Movement After Party: Odd Mob",
-            "contentUrl": "/events/2149254",
+            "title": "Detroit Yacht Party 8",
+            "contentUrl": "/events/2140554",
             "flyerFront": null,
             "isTicketed": false,
-            "attending": 7,
+            "attending": 12,
             "queueItEnabled": false,
             "newEventForm": true,
-            "images": [
-                {
-                    "id": "2172100",
-                    "filename": "https://images.ra.co/409a70e772b165cee7f68f7d7c32bf0857073485.png",
-                    "alt": null,
-                    "type": "FLYERFRONT",
-                    "crop": null,
-                    "__typename": "EventImage"
-                }
-            ],
+            "images": [],
             "pick": null,
             "venue": {
-                "id": "6199",
-                "name": "Magic Stick",
-                "contentUrl": "/clubs/6199",
-                "live": true,
+                "id": "261426",
+                "name": "TBA - DIAMOND BELLE YACHT (Diamond Jacks River Tours)",
+                "contentUrl": null,
+                "live": false,
                 "__typename": "Venue"
             },
             "__typename": "Event",
             "artists": [],
-            "genres": []
+            "genres": [
+                {
+                    "name": "Techno",
+                    "slug": "techno",
+                    "__typename": "Genre"
+                },
+                {
+                    "name": "Afro Tech",
+                    "slug": "afrotech",
+                    "__typename": "Genre"
+                }
+            ]
         },
         "__typename": "EventListing",
         "ticket_info": {
@@ -8880,7 +9205,7 @@
             "contentUrl": "/events/2150521",
             "flyerFront": null,
             "isTicketed": false,
-            "attending": 8,
+            "attending": 12,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -8939,6 +9264,111 @@
         }
     },
     {
+        "id": "12149254",
+        "listingDate": "2025-05-25T00:00:00.000",
+        "event": {
+            "id": "2149254",
+            "date": "2025-05-25T00:00:00.000",
+            "startTime": "2025-05-25T11:00:00.000",
+            "endTime": "2025-05-26T04:00:00.000",
+            "title": "Official Movement After Party: Odd Mob",
+            "contentUrl": "/events/2149254",
+            "flyerFront": null,
+            "isTicketed": false,
+            "attending": 10,
+            "queueItEnabled": false,
+            "newEventForm": true,
+            "images": [
+                {
+                    "id": "2172100",
+                    "filename": "https://images.ra.co/409a70e772b165cee7f68f7d7c32bf0857073485.png",
+                    "alt": null,
+                    "type": "FLYERFRONT",
+                    "crop": null,
+                    "__typename": "EventImage"
+                }
+            ],
+            "pick": null,
+            "venue": {
+                "id": "6199",
+                "name": "Magic Stick",
+                "contentUrl": "/clubs/6199",
+                "live": true,
+                "__typename": "Venue"
+            },
+            "__typename": "Event",
+            "artists": [],
+            "genres": []
+        },
+        "__typename": "EventListing",
+        "ticket_info": {
+            "tier": null,
+            "price": null,
+            "current_tier": null
+        }
+    },
+    {
+        "id": "12126711",
+        "listingDate": "2025-05-25T00:00:00.000",
+        "event": {
+            "id": "2126711",
+            "date": "2025-05-25T00:00:00.000",
+            "startTime": "2025-05-25T12:00:00.000",
+            "endTime": "2025-05-26T12:00:00.000",
+            "title": "Detroit Diaspora Day Festival",
+            "contentUrl": "/events/2126711",
+            "flyerFront": null,
+            "isTicketed": true,
+            "attending": 8,
+            "queueItEnabled": false,
+            "newEventForm": true,
+            "images": [
+                {
+                    "id": "2141771",
+                    "filename": "https://images.ra.co/fa2c6270e7a56f0729870632015c988383be933c.jpg",
+                    "alt": null,
+                    "type": "FLYERFRONT",
+                    "crop": null,
+                    "__typename": "EventImage"
+                }
+            ],
+            "pick": null,
+            "venue": {
+                "id": "227255",
+                "name": "The Norwood Theatre",
+                "contentUrl": "/clubs/227255",
+                "live": true,
+                "__typename": "Venue"
+            },
+            "__typename": "Event",
+            "artists": [
+                {
+                    "id": "123920",
+                    "name": "dej.y",
+                    "__typename": "Artist"
+                }
+            ],
+            "genres": [
+                {
+                    "name": "Progressive House",
+                    "slug": "progressivehouse",
+                    "__typename": "Genre"
+                },
+                {
+                    "name": "Deep House",
+                    "slug": "deephouse",
+                    "__typename": "Genre"
+                }
+            ]
+        },
+        "__typename": "EventListing",
+        "ticket_info": {
+            "tier": "Early bird",
+            "price": "$22.85",
+            "current_tier": "1 of 2"
+        }
+    },
+    {
         "id": "12154571",
         "listingDate": "2025-05-25T00:00:00.000",
         "event": {
@@ -8950,7 +9380,7 @@
             "contentUrl": "/events/2154571",
             "flyerFront": null,
             "isTicketed": false,
-            "attending": 4,
+            "attending": 6,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -9043,6 +9473,138 @@
         }
     },
     {
+        "id": "12156474",
+        "listingDate": "2025-05-25T00:00:00.000",
+        "event": {
+            "id": "2156474",
+            "date": "2025-05-25T00:00:00.000",
+            "startTime": "2025-05-25T12:00:00.000",
+            "endTime": "2025-05-25T18:30:00.000",
+            "title": "ALL DAY TECHNO BRUNCH",
+            "contentUrl": "/events/2156474",
+            "flyerFront": null,
+            "isTicketed": false,
+            "attending": 5,
+            "queueItEnabled": false,
+            "newEventForm": true,
+            "images": [
+                {
+                    "id": "2182821",
+                    "filename": "https://images.ra.co/a14cdd8485a7fb68131b2fe14e44ace7cf763b68.png",
+                    "alt": null,
+                    "type": "FLYERFRONT",
+                    "crop": null,
+                    "__typename": "EventImage"
+                }
+            ],
+            "pick": null,
+            "venue": {
+                "id": "151965",
+                "name": "Detroit Shipping Company",
+                "contentUrl": "/clubs/151965",
+                "live": true,
+                "__typename": "Venue"
+            },
+            "__typename": "Event",
+            "artists": [
+                {
+                    "id": "137853",
+                    "name": "I-R (US)",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "70887",
+                    "name": "Seanni B",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "159667",
+                    "name": "Olly Junglist",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "137882",
+                    "name": "RETCON",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "137797",
+                    "name": "Kuuma",
+                    "__typename": "Artist"
+                }
+            ],
+            "genres": [
+                {
+                    "name": "Techno",
+                    "slug": "techno",
+                    "__typename": "Genre"
+                },
+                {
+                    "name": "Footwork",
+                    "slug": "footwork",
+                    "__typename": "Genre"
+                }
+            ]
+        },
+        "__typename": "EventListing",
+        "ticket_info": {
+            "tier": null,
+            "price": null,
+            "current_tier": null
+        }
+    },
+    {
+        "id": "12159704",
+        "listingDate": "2025-05-25T00:00:00.000",
+        "event": {
+            "id": "2159704",
+            "date": "2025-05-25T00:00:00.000",
+            "startTime": "2025-05-25T17:00:00.000",
+            "endTime": "2025-05-26T02:00:00.000",
+            "title": "dbar",
+            "contentUrl": "/events/2159704",
+            "flyerFront": null,
+            "isTicketed": true,
+            "attending": 0,
+            "queueItEnabled": false,
+            "newEventForm": true,
+            "images": [],
+            "pick": null,
+            "venue": {
+                "id": "207223",
+                "name": "TBA - Detroit",
+                "contentUrl": null,
+                "live": false,
+                "__typename": "Venue"
+            },
+            "__typename": "Event",
+            "artists": [
+                {
+                    "id": "61767",
+                    "name": "Chris Cruse",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "10350",
+                    "name": "Massimiliano Pagliara",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "16944",
+                    "name": "Partok",
+                    "__typename": "Artist"
+                }
+            ],
+            "genres": []
+        },
+        "__typename": "EventListing",
+        "ticket_info": {
+            "tier": "Early bird",
+            "price": "$28.55",
+            "current_tier": "1 of 5"
+        }
+    },
+    {
         "id": "32085466",
         "listingDate": "2025-05-26T00:00:00.000",
         "event": {
@@ -9054,7 +9616,7 @@
             "contentUrl": "/events/2085466",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 1376,
+            "attending": 1410,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -9302,7 +9864,7 @@
             "contentUrl": "/events/2105787",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 614,
+            "attending": 638,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -9408,7 +9970,7 @@
         "ticket_info": {
             "tier": "4th release",
             "price": "$75.00",
-            "current_tier": "5 of 6"
+            "current_tier": "4 of 5"
         }
     },
     {
@@ -9423,7 +9985,7 @@
             "contentUrl": "/events/2085426",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 367,
+            "attending": 377,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -9566,7 +10128,7 @@
             "contentUrl": "/events/2089803",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 306,
+            "attending": 333,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -9579,7 +10141,11 @@
                     "__typename": "EventImage"
                 }
             ],
-            "pick": null,
+            "pick": {
+                "id": "41948",
+                "blurb": "Glazed presents more than 20 hours of cutting-edge techno at local stronghold Marble Bar featuring electro icons AUX 88 alongside new-guard favorites Loidis and Nick Le\u00f3n.",
+                "__typename": "EventPick"
+            },
             "venue": {
                 "id": "110904",
                 "name": "Marble Bar",
@@ -9721,7 +10287,7 @@
             "contentUrl": "/events/2085429",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 224,
+            "attending": 237,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -9804,7 +10370,7 @@
             "contentUrl": "/events/2137001",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 183,
+            "attending": 202,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -9985,7 +10551,7 @@
             "contentUrl": "/events/2116946",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 143,
+            "attending": 149,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -10066,7 +10632,7 @@
             "contentUrl": "/events/2121267",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 72,
+            "attending": 76,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -10246,7 +10812,7 @@
             "contentUrl": "/events/2144829",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 44,
+            "attending": 58,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -10346,13 +10912,13 @@
             "contentUrl": "/events/2155077",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 23,
+            "attending": 31,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
                 {
-                    "id": "2180055",
-                    "filename": "https://images.ra.co/985080827e35dd827ba5510e51135b5d4eacc8ed.png",
+                    "id": "2182825",
+                    "filename": "https://images.ra.co/e2295a0445c4d1d234476a483d77d64863a30160.png",
                     "alt": null,
                     "type": "FLYERFRONT",
                     "crop": null,
@@ -10392,6 +10958,11 @@
                 {
                     "id": "18142",
                     "name": "Mickey Perez",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "95480",
+                    "name": "JADALAREIGN",
                     "__typename": "Artist"
                 }
             ],
@@ -10460,6 +11031,67 @@
         }
     },
     {
+        "id": "12159371",
+        "listingDate": "2025-05-26T00:00:00.000",
+        "event": {
+            "id": "2159371",
+            "date": "2025-05-26T00:00:00.000",
+            "startTime": "2025-05-26T22:00:00.000",
+            "endTime": "2025-05-27T03:00:00.000",
+            "title": "Jyoty B2B ????? (Official Movement Afterparty)",
+            "contentUrl": "/events/2159371",
+            "flyerFront": null,
+            "isTicketed": true,
+            "attending": 36,
+            "queueItEnabled": false,
+            "newEventForm": true,
+            "images": [
+                {
+                    "id": "2185992",
+                    "filename": "https://images.ra.co/05fb91642437e3dec42d2272299abcd0cc008f65.jpg",
+                    "alt": null,
+                    "type": "FLYERFRONT",
+                    "crop": null,
+                    "__typename": "EventImage"
+                }
+            ],
+            "pick": null,
+            "venue": {
+                "id": "205236",
+                "name": "Big Pink",
+                "contentUrl": "/clubs/205236",
+                "live": true,
+                "__typename": "Venue"
+            },
+            "__typename": "Event",
+            "artists": [
+                {
+                    "id": "92199",
+                    "name": "Jyoty",
+                    "__typename": "Artist"
+                }
+            ],
+            "genres": [
+                {
+                    "name": "Techno",
+                    "slug": "techno",
+                    "__typename": "Genre"
+                },
+                {
+                    "name": "House",
+                    "slug": "house",
+                    "__typename": "Genre"
+                }
+            ]
+        },
+        "__typename": "EventListing",
+        "ticket_info": {
+            "tier": "1st release",
+            "price": "$22.85",
+            "current_tier": "1 of 3"
+        }
+    },
+    {
         "id": "32061680",
         "listingDate": "2025-05-26T00:00:00.000",
         "event": {
@@ -10471,7 +11103,7 @@
             "contentUrl": "/events/2061680",
             "flyerFront": null,
             "isTicketed": false,
-            "attending": 249,
+            "attending": 264,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -11096,7 +11728,7 @@
             "contentUrl": "/events/2128943",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 73,
+            "attending": 81,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -11201,7 +11833,7 @@
             "contentUrl": "/events/2129815",
             "flyerFront": null,
             "isTicketed": false,
-            "attending": 69,
+            "attending": 75,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -11267,7 +11899,7 @@
             "contentUrl": "/events/2144823",
             "flyerFront": null,
             "isTicketed": false,
-            "attending": 16,
+            "attending": 24,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -11311,24 +11943,24 @@
         }
     },
     {
-        "id": "12149572",
+        "id": "12157356",
         "listingDate": "2025-05-26T00:00:00.000",
         "event": {
-            "id": "2149572",
+            "id": "2157356",
             "date": "2025-05-26T00:00:00.000",
-            "startTime": "2025-05-26T11:00:00.000",
-            "endTime": "2025-05-26T16:00:00.000",
-            "title": "Techno Brunch",
-            "contentUrl": "/events/2149572",
+            "startTime": "2025-05-26T16:00:00.000",
+            "endTime": "2025-05-27T04:00:00.000",
+            "title": "The People Mover - FREE PARTY - 3 Areas! Massive Lineup",
+            "contentUrl": "/events/2157356",
             "flyerFront": null,
-            "isTicketed": true,
-            "attending": 12,
+            "isTicketed": false,
+            "attending": 19,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
                 {
-                    "id": "2180626",
-                    "filename": "https://images.ra.co/66870634d1ad04889eff4a4dc367bf5e808b5661.png",
+                    "id": "2186453",
+                    "filename": "https://images.ra.co/556978f2250704e3650b1a52fa6594ff0e8a885c.jpg",
                     "alt": null,
                     "type": "FLYERFRONT",
                     "crop": null,
@@ -11337,22 +11969,112 @@
             ],
             "pick": null,
             "venue": {
-                "id": "262434",
-                "name": "TBA - Location given after ticket purchase",
-                "contentUrl": null,
-                "live": false,
+                "id": "4525",
+                "name": "Corktown Tavern",
+                "contentUrl": "/clubs/4525",
+                "live": true,
                 "__typename": "Venue"
             },
             "__typename": "Event",
             "artists": [
                 {
-                    "id": "63657",
-                    "name": "Stacey Hotwaxx Hale",
+                    "id": "35053",
+                    "name": "Frankie Bones",
                     "__typename": "Artist"
                 },
                 {
-                    "id": "92404",
-                    "name": "The AM/AMX",
+                    "id": "9318",
+                    "name": "DJ Seoul",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "58407",
+                    "name": "Axkan",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "44888",
+                    "name": "Alexander Technique",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "40198",
+                    "name": "Juheun",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "21356",
+                    "name": "Drivetrain",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "10519",
+                    "name": "Claus Bachor",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "140945",
+                    "name": "Brent Shay",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "95673",
+                    "name": "Antonio Lombardo",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "142364",
+                    "name": "Nikkie Nocturnal",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "37255",
+                    "name": "Pjay",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "90750",
+                    "name": "Dutch Mike",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "76557",
+                    "name": "Cody Hammer",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "91070",
+                    "name": "Destro187",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "96943",
+                    "name": "DJ-FIXED",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "5734",
+                    "name": "Dj Disc",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "91075",
+                    "name": "MAXIMILIANO (US)",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "58580",
+                    "name": "Michelle Sparks",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "82932",
+                    "name": "SPEED\u0178",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "62961",
+                    "name": "Terry James",
                     "__typename": "Artist"
                 }
             ],
@@ -11363,17 +12085,17 @@
                     "__typename": "Genre"
                 },
                 {
-                    "name": "Deep House",
-                    "slug": "deephouse",
+                    "name": "House",
+                    "slug": "house",
                     "__typename": "Genre"
                 }
             ]
         },
         "__typename": "EventListing",
         "ticket_info": {
-            "tier": "General admission",
-            "price": "$199.00",
-            "current_tier": "1 of 1"
+            "tier": null,
+            "price": null,
+            "current_tier": null
         }
     },
     {
@@ -11388,7 +12110,7 @@
             "contentUrl": "/events/2152024",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 11,
+            "attending": 15,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -11527,7 +12249,7 @@
             "contentUrl": "/events/2155365",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 5,
+            "attending": 18,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -11602,6 +12324,218 @@
         }
     },
     {
+        "id": "12149572",
+        "listingDate": "2025-05-26T00:00:00.000",
+        "event": {
+            "id": "2149572",
+            "date": "2025-05-26T00:00:00.000",
+            "startTime": "2025-05-26T11:00:00.000",
+            "endTime": "2025-05-26T16:00:00.000",
+            "title": "Techno Brunch",
+            "contentUrl": "/events/2149572",
+            "flyerFront": null,
+            "isTicketed": true,
+            "attending": 15,
+            "queueItEnabled": false,
+            "newEventForm": true,
+            "images": [
+                {
+                    "id": "2180626",
+                    "filename": "https://images.ra.co/66870634d1ad04889eff4a4dc367bf5e808b5661.png",
+                    "alt": null,
+                    "type": "FLYERFRONT",
+                    "crop": null,
+                    "__typename": "EventImage"
+                }
+            ],
+            "pick": null,
+            "venue": {
+                "id": "262434",
+                "name": "TBA - Location given after ticket purchase",
+                "contentUrl": null,
+                "live": false,
+                "__typename": "Venue"
+            },
+            "__typename": "Event",
+            "artists": [
+                {
+                    "id": "63657",
+                    "name": "Stacey Hotwaxx Hale",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "92404",
+                    "name": "The AM/AMX",
+                    "__typename": "Artist"
+                }
+            ],
+            "genres": [
+                {
+                    "name": "Techno",
+                    "slug": "techno",
+                    "__typename": "Genre"
+                },
+                {
+                    "name": "Deep House",
+                    "slug": "deephouse",
+                    "__typename": "Genre"
+                }
+            ]
+        },
+        "__typename": "EventListing",
+        "ticket_info": {
+            "tier": "General admission",
+            "price": "$199.00",
+            "current_tier": "1 of 1"
+        }
+    },
+    {
+        "id": "12157844",
+        "listingDate": "2025-05-26T00:00:00.000",
+        "event": {
+            "id": "2157844",
+            "date": "2025-05-26T00:00:00.000",
+            "startTime": "2025-05-26T07:00:00.000",
+            "endTime": "2025-05-26T15:00:00.000",
+            "title": "Breakfast Of Champions (2025)",
+            "contentUrl": "/events/2157844",
+            "flyerFront": null,
+            "isTicketed": false,
+            "attending": 7,
+            "queueItEnabled": false,
+            "newEventForm": true,
+            "images": [
+                {
+                    "id": "2183823",
+                    "filename": "https://images.ra.co/24e28419aa99298eb03cc0084da35635c795bf8b.jpg",
+                    "alt": null,
+                    "type": "FLYERFRONT",
+                    "crop": null,
+                    "__typename": "EventImage"
+                }
+            ],
+            "pick": null,
+            "venue": {
+                "id": "197979",
+                "name": "Spkrbox",
+                "contentUrl": "/clubs/197979",
+                "live": true,
+                "__typename": "Venue"
+            },
+            "__typename": "Event",
+            "artists": [
+                {
+                    "id": "156005",
+                    "name": "Geneva (2)",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "1220",
+                    "name": "Sassmouth",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "76557",
+                    "name": "Cody Hammer",
+                    "__typename": "Artist"
+                }
+            ],
+            "genres": [
+                {
+                    "name": "Techno",
+                    "slug": "techno",
+                    "__typename": "Genre"
+                },
+                {
+                    "name": "House",
+                    "slug": "house",
+                    "__typename": "Genre"
+                }
+            ]
+        },
+        "__typename": "EventListing",
+        "ticket_info": {
+            "tier": null,
+            "price": null,
+            "current_tier": null
+        }
+    },
+    {
+        "id": "12160278",
+        "listingDate": "2025-05-26T00:00:00.000",
+        "event": {
+            "id": "2160278",
+            "date": "2025-05-26T00:00:00.000",
+            "startTime": "2025-05-26T14:00:00.000",
+            "endTime": "2025-05-26T22:00:00.000",
+            "title": "MOVE,  DIVA",
+            "contentUrl": "/events/2160278",
+            "flyerFront": null,
+            "isTicketed": true,
+            "attending": 4,
+            "queueItEnabled": false,
+            "newEventForm": true,
+            "images": [
+                {
+                    "id": "2187685",
+                    "filename": "https://images.ra.co/903f7d51c7ce9f789a5059069b7f55363675053d.png",
+                    "alt": null,
+                    "type": "FLYERFRONT",
+                    "crop": null,
+                    "__typename": "EventImage"
+                }
+            ],
+            "pick": null,
+            "venue": {
+                "id": "244718",
+                "name": "Halo Bar and Lounge",
+                "contentUrl": "/clubs/244718",
+                "live": true,
+                "__typename": "Venue"
+            },
+            "__typename": "Event",
+            "artists": [
+                {
+                    "id": "59071",
+                    "name": "Overland",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "111555",
+                    "name": "ASL Princess",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "138020",
+                    "name": "Wild Cherry",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "111857",
+                    "name": "Garrison XR",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "111746",
+                    "name": "Duck Trash",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "130089",
+                    "name": "Amino",
+                    "__typename": "Artist"
+                }
+            ],
+            "genres": []
+        },
+        "__typename": "EventListing",
+        "ticket_info": {
+            "tier": "Early bird",
+            "price": "$17.15",
+            "current_tier": "1 of 1"
+        }
+    },
+    {
         "id": "12139557",
         "listingDate": "2025-05-27T00:00:00.000",
         "event": {
@@ -11613,7 +12547,7 @@
             "contentUrl": "/events/2139557",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 12,
+            "attending": 14,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -11693,7 +12627,7 @@
             "contentUrl": "/events/2069159",
             "flyerFront": null,
             "isTicketed": true,
-            "attending": 115,
+            "attending": 122,
             "queueItEnabled": false,
             "newEventForm": true,
             "images": [
@@ -11802,6 +12736,16 @@
                 {
                     "id": "5734",
                     "name": "Dj Disc",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "160894",
+                    "name": "jamea.",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "142364",
+                    "name": "Nikkie Nocturnal",
                     "__typename": "Artist"
                 },
                 {
