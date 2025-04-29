@@ -18,6 +18,11 @@ RailsAdmin.config do |config|
   end
 
   config.model 'Event' do
+    list do
+      items_per_page 50
+      sort_by :start_time
+    end
+    
   edit do
     field :title
     field :manual_override_title, :boolean
