@@ -7,7 +7,7 @@ class Event < ApplicationRecord
   has_many :artists, through: :artist_events
   has_many :user_events, class_name: 'UserEvent'
   has_many :users, through: :user_events
-  has_many :ticket_posts
+  # has_many :ticket_posts
 
 
 
